@@ -2,6 +2,8 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
+import {name} from './01-tiposybases.ts'
+import {usuario1} from './02-objetosinterfaces.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -11,6 +13,12 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <a href="https://www.typescriptlang.org/" target="_blank">
       <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
     </a>
+
+    <a>
+      <h2>${name}</h2>
+      <h2>${usuario1.nombre}</h2>
+    </a>
+
     <h1>Vite + TypeScript</h1>
     <div class="card">
       <button id="counter" type="button"></button>

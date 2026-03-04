@@ -32,6 +32,11 @@ interface-Define la estructura de un objeto*/
 //let mensaje: string = "Hola"; //Especificamos el tipo de dato
 
 
-export const name = 'Diego';
+//export const name = 'Diego';
+
+//console.log(name);
+
+
+export const name: string = 'Diego';
 
 console.log(name);
